@@ -1,0 +1,613 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body, fieldset, html, iframe, img {
+    border: 0;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", SimSun, sans-serif;
+    font-size: 14px;
+    background: #ffda44;
+    -webkit-user-select: initial !important;
+    user-select: initial !important;
+}
+
+a {
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+ul,
+ul li,
+ol,
+ol li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	min-width: 1060px;
+}
+
+.header {
+    height: 572px;
+    width: 100%;
+}
+
+.header .container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.header .container:after {
+	display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+}
+
+.header .left {
+    width: 603px;
+    height: auto;
+    background-size: cover;
+    margin-top: 60px;
+    margin-left: 30px;
+    float: left;
+    display: block;
+}
+
+.header .left.wap {
+	display: none;
+}
+
+.header .right {
+    float: left;
+    margin-top: 210px;
+    margin-right: 38px;
+}
+
+.header .right .logo {
+    width: 360px;
+}
+
+.header .right .download {
+    margin-top: 53px;
+}
+
+.header .right .download .iphone {
+	display: inline-block;
+    width: 170px;
+    height: 58px;
+    background: url('../img/iphone-download.png') no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/iphone-download.png',sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/iphone-download.png',sizingMethod='scale')";
+}
+
+.header .right .download .iphone:hover {
+	display: inline-block;
+    width: 170px;
+    height: 58px;
+    background: url('../img/iphone-download-active.png') no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/iphone-download-active.png',sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/iphone-download-active.png',sizingMethod='scale')";
+}
+
+.header .right .download .iphone:active {
+	display: inline-block;
+    width: 170px;
+    height: 58px;
+    background: url('../img/iphone-download-active.png') no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/iphone-download-active.png',sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/iphone-download-active.png',sizingMethod='scale')";
+}
+
+.header .right .download .android {
+	display: inline-block;
+    width: 170px;
+    height: 58px;
+    background: url('../img/android-download.png') no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/android-download.png',sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/android-download.png',sizingMethod='scale')";
+    float: right;
+}
+
+.header .right .download .android:hover {
+	display: inline-block;
+    width: 170px;
+    height: 58px;
+    background: url('../img/android-download-active.png') no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/android-download-active.png',sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/android-download-active.png',sizingMethod='scale')";
+}
+
+.header .right .download .android:active {
+	display: inline-block;
+    width: 170px;
+    height: 58px;
+    background: url('../img/android-download-active.png') no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/android-download-active.png',sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/android-download-active.png',sizingMethod='scale')";
+}
+
+
+.header .right .outlay{
+	width: 360px;
+	height: 50px;
+	display: inline-block;
+	background-size: contain;
+	background:url('../img/sfzx_d.png') no-repeat;
+}
+
+.header .right .outlay:hover {
+	width: 360px;
+	height: 50px;
+	display: inline-block;
+	background-size: contain;
+	background:url('../img/sfzx_c.png') no-repeat;
+}
+
+.header .right .outlay:active {
+	width: 360px;
+	height: 50px;
+	display: inline-block;
+	background-size: contain;
+	background:url('../img/sfzx_c.png') no-repeat;
+}
+
+.main {
+	background: #343233;
+}
+
+.main .container {	
+	width: 1060px;
+	margin: 0 auto;
+	padding: 0 56px 0 64px;
+}
+
+.main .top {
+	width: 100%;
+	padding-top: 72px;
+	font-size: 34px;
+	color: #ffda44;
+	text-align: center;
+}
+
+.main .middle {
+	padding-top: 56px;
+	width: 100%;
+    margin: 0 auto;
+}
+
+.main .middle .feature {
+	width: 100%;
+	overflow: hidden;
+}
+
+.main .middle .feature li {
+	width: 33.33%;
+	float: left;
+}
+
+.main .middle .feature li img {
+	width: 300px;
+}
+
+.main .middle .feature .feature2 {
+	text-align: center;
+}
+
+.main .middle .feature .feature2 img.www {
+	display: inline-block;
+}
+
+.main .middle .feature .feature2 img.wap
+ {
+	display: none;
+}
+
+.main .middle .feature .feature3 {
+	text-align: right;
+}
+
+.main .bottom {
+	width: 100%;
+	padding: 56px 0 0 26px;
+}
+
+.main .bottom .fun {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 35px;
+}
+
+.main .bottom .fun li {
+	float: left;
+	margin-bottom: 40px;
+}
+
+.main .bottom .fun li.odd {
+	width: 55%;
+}
+
+.main .bottom .fun li.even {
+	width: 45%;
+}
+
+.main .bottom .fun li img {
+	width: 46px;
+	height: 46px;
+	margin-right: 15px;
+	vertical-align: text-bottom;
+}
+
+.main .bottom .fun li .item {
+	display: inline-block;
+}
+
+.main .bottom .fun .title {
+	color: #ffda44;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+.main .bottom .fun .desc {
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer {
+	width: 100%;
+}
+
+.footer .info {
+	width: 1060px;
+	height: 152px;
+	margin: 0 auto;
+}
+
+.footer .contact {
+	display: inline-block;
+	color: #343233;
+	font-size: 14px;
+	margin-top: 61px;
+}
+
+.footer .contact.wechat {
+	margin-left: 136px;
+	position: relative;
+}
+
+.footer .contact.wechat:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -24px;
+    width: 20px;
+    height: 20px;
+	background: url('../img/wechat-icon.png') no-repeat;
+	background-size: contain;
+}
+
+.footer .contact.business {
+	margin-left: 88px;
+	position: relative;
+}
+
+.footer .contact.business:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -24px;
+    width: 20px;
+    height: 20px;
+	background: url('../img/business-icon.png') no-repeat;
+	background-size: contain;
+}
+
+.footer .qr-code {
+	float: right;
+	margin: 35px 50px 0 0;
+}
+
+.footer .qr-code img {
+	width: 85px;
+    height: auto;
+}
+
+.footer .qr-code .follow {
+	margin-right: 34px;
+}
+
+.footer .copyright {
+	text-align: center;
+	color: #343233;
+	font-size: 12px;
+	opacity: .7;
+	padding: 0 5px 13px 5px;
+}
+
+.footer .copyright a {
+	color: #343233;
+}
+
+@media (max-width: 768px) {
+	body {
+		min-width: 0;
+	}
+
+	.header {
+		height: auto;
+	}
+
+	.header .container {
+		width: 100%;
+	}
+
+	.header .right {
+		float: none;
+		margin: 60px auto 0 auto;
+	}
+
+	.header .right .logo {
+		width: 286px;
+		margin: 0 auto;
+    	display: block;
+	}
+
+	.header .right .download .iphone {
+	    width: 136px;
+	    height: 45px;
+	}
+
+	.header .right .download .iphone:hover {
+	    width: 136px;
+	    height: 45px;
+	}
+
+	.header .right .download .iphone:active {
+	    width: 136px;
+	    height: 45px;
+	}
+
+
+	.header .right .download .android {
+	    width: 136px;
+	    height: 45px;
+	}
+
+	.header .right .download .android:hover {
+	    width: 136px;
+	    height: 45px;
+	}
+
+	.header .right .download .android:active {
+	    width: 136px;
+	    height: 45px;
+	}
+
+	.header .right .download {
+		width: 286px;
+		margin: 38px auto 0 auto;
+	}
+
+	.header .left.www {
+		display: none;
+	}
+
+	.header .left.wap {
+		display: block;
+	}
+
+	.header .left {
+		width: 100%;
+		float: none;
+		height: auto;
+		margin: 0;
+	}
+
+	.main .top {
+		padding-top: 30px;
+		font-size: 24px;
+	}
+
+	.main .container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.main .middle {
+		padding-top: 30px;
+	}
+
+	.main .middle .feature {
+		padding: 0 26px;
+	}
+
+	.main .middle .feature li {
+		width: 100%;
+		float: none;
+		margin-bottom: 12px;
+	}
+
+	.main .middle .feature .feature2 {
+		text-align: right;
+	}
+
+	.main .middle .feature .feature2 img.www {
+		display: none;
+	}
+
+	.main .middle .feature .feature2 img.wap {
+		display: inline-block;
+	}
+
+	.main .middle .feature .feature3 {
+		text-align: left;
+	}
+
+	.main .bottom {
+		padding: 18px 40px 0 40px;
+	}
+
+	.main .bottom .fun {
+		padding-bottom: 20px;
+	}
+
+	.main .bottom .fun .desc {
+		display: block;
+	}
+
+	.main .bottom .fun li img {
+		vertical-align: bottom;
+		margin-right: 10px;
+		width: 37px;
+    	height: 37px;
+	}
+
+	.main .bottom .fun .title {
+		line-height: 26px;
+	}
+
+	.main .bottom .fun li {
+		margin-bottom: 15px;
+	}
+
+	.footer .info {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.footer .qr-code {
+		float: none;
+		margin: 30px 0 20px 0;
+	}
+
+	.footer .contact.wechat {
+		margin: 0 44px 0 28px;
+	}
+
+	.footer .contact.business {
+		margin: 20px 0 20px 28px;
+	}
+
+	.footer .qr-code img {
+		width: 110px;
+	}
+
+	.footer .qr-code .follow {
+		margin-right: 44px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+	.header .right .logo {
+		width: 312px;
+	}
+
+	.header .right .download {
+		width: 312px;
+	}
+
+	.header .right .download .iphone {
+	    width: 145px;
+	    height: 48px;
+	}
+
+	.header .right .download .iphone:hover {
+	    width: 145px;
+	    height: 48px;
+	}
+
+	.header .right .download .iphone:active {
+	    width: 145px;
+	    height: 48px;
+	}
+
+	.header .right .download .android {
+	    width: 145px;
+	    height: 48px;
+	}
+
+	.header .right .download .android:hover {
+	    width: 145px;
+	    height: 48px;
+	}
+
+	.header .right .download .android:active {
+	    width: 145px;
+	    height: 48px;
+	}
+}
+
+@media (max-width: 320px) {
+	.header .right .logo {
+		width: 248px;
+	}
+
+	.header .right .download {
+		width: 248px;
+	}
+
+	.header .right .download .iphone {
+	    width: 116px;
+	    height: 38px;
+	}
+
+	.header .right .download .iphone:hover {
+	    width: 116px;
+	    height: 38px;
+	}
+
+	.header .right .download .iphone:active {
+	    width: 116px;
+	    height: 38px;
+	}
+
+	.header .right .download .android {
+	    width: 116px;
+	    height: 38px;
+	}
+
+	.header .right .download .android:hover {
+	    width: 116px;
+	    height: 38px;
+	}
+
+	.header .right .download .android:active {
+	    width: 116px;
+	    height: 38px;
+	}
+}
